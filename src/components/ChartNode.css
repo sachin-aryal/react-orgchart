@@ -53,12 +53,6 @@
 .orgchart ul li .oc-node.currentDropTarget {
   background-color: rgba(68, 157, 68, 0.9);
 }
-.orgchart ul li .oc-node.selected {
-  background-color: rgba(238, 217, 54, 0.5);
-}
-.orgchart ul li .oc-node:hover {
-  background-color: rgba(238, 217, 54, 0.5);
-}
 /* excluding root node */
 .orgchart > ul > li > ul li > .oc-node::before {
   content: "";
@@ -194,7 +188,7 @@
 }
 
 .orgchart .oc-node .bottomEdge.oci-chevron-up::before {
-  bottom: -3px;
+  bottom: 0;
 }
 
 .orgchart .oc-node .bottomEdge.oci-chevron-down::before {
